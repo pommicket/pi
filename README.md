@@ -1,6 +1,6 @@
 # pi
 
-Digits of pi, using the fact that
+A small program to generate the digits of pi, using the fact that
 
 ```
 pi = pi + sin(pi)
