@@ -78,7 +78,7 @@ int main(int argc, char **argv) {
 	mpf_set_ui(pi, 3);
 	mpf_set_ui(desired_error, 1);
 	mpf_div_ui(desired_error, desired_error, 10);
-	mpf_pow_ui(desired_error, desired_error, digits);
+	mpf_pow_ui(desired_error, desired_error, digits + 5);
 
 	for (i = 0; ; ++i) {
 		unsigned j;
